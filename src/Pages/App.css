@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  text-align: center;
+  background: url('../assets/tropical-leaves-background-design-summer-leaves-flat-illustration-simple-banner-with-copy-space-free-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main {
+  margin: 60px;
+}
+.form-group {
+ display: flex;
+ gap: 0.5rem;
+ justify-content: space-around;
+position: relative;
+}
+.add-button {
+position: absolute;
+width: 200px;
+bottom: -100%;
+margin: 0 auto;
+background: green;
+color: white;
+}
+.remove-btn{
+  margin-top: 20px;
+  width: 200px;
+margin: 20px auto;
+background: red;
+color: white;
+}
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+   width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
